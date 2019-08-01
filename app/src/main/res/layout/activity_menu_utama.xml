@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuUtama">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:fillColor="@color/colorPrimary"
+        app:pageColor="#00000000"
+        app:radius="7dp"
+        app:slideInterval="8000"
+        app:strokeColor="#FFf"
+        app:strokeWidth="2dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cv"
+        android:orientation="vertical"
+        android:paddingTop="120dp"
+        android:paddingLeft="8dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="8dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/muffin"
+                android:layout_marginRight="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/judul"
+                android:fontFamily="casual"
+                android:onClick="TypesCake"
+                android:id="@+id/btnCake"
+                android:text="cake"
+                android:textColor="#fff"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="8dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cooking"
+                android:layout_marginRight="8dp"/>
+
+            <Button
+                android:id="@+id/btntutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@color/judul"
+                android:fontFamily="casual"
+                android:text="How to make cake"
+                android:onClick="tutorial"
+                android:textColor="#fff"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="©Meetcake 2018"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/imgitem2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/victoriasponge"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtitem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtitems2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asal"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_below="@+id/txtitem2"
+            android:layout_marginLeft="10dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

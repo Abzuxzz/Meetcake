@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailCake">
+
+    <TextView
+        android:id="@+id/txtaplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meetcake"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="@color/judul" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/txtaplikasi">
+
+
+        <ImageView
+            android:id="@+id/imgcake"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/cheesecake" />
+
+        <TextView
+            android:id="@+id/txtcake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Nama"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/asalcake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Asal Kue"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtdetailcake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="penjelasan"
+                android:padding="8dp"
+                android:textColor="#000" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

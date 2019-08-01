@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Meetcake</string>
+
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Simple Design</string>
+    <string name="slide_1_desc">Memiliki Tampilan yang Simple dan Unik</string>
+
+    <string name="slide_2_title">Easy</string>
+    <string name="slide_2_desc">Penjelasan yang mudah di Mengerti</string>
+
+    <string name="slide_3_title">Good View</string>
+    <string name="slide_3_desc">Rasakan Desain yang dapat memanjakan matamu</string>
+
+
+    <string name="title_activity_pertama">ActivityPertama</string>
+</resources>
